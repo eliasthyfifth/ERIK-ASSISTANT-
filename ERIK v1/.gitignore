@@ -1,0 +1,33 @@
+# Python virtual environments
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large Model Files (DO NOT COMMIT)
+models/*.onnx
+models/*.bin
+models/*.npy
+models/*.pth
+models/*.pt
+
+# Keep the models directory structure
+!models/.gitkeep
+
+# Cloning / Experimental files (Too large or messy)
+cloning/teto_reference.wav
+cloning/tuner_results/
+cloning/kvoicewalk/
+cloning/teto_text.txt
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
