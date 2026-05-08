@@ -1,4 +1,4 @@
-# ERIK v3 🤖
+# ERIK v1 🤖
 
 ERIK is a lightweight, local-first AI system watchdog and desktop assistant for Linux. 
 
