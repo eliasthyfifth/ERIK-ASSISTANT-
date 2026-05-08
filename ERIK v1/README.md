@@ -70,5 +70,9 @@ systemctl --user enable --now erik-watchdog.service
 ## 💬 How to Chat
 Run the client script to bring up the GTK chat window. It is recommended to bind this to a global keyboard shortcut (e.g., `Ctrl+Alt+E`).
 ```bash
+/path/to/ERIK/venv/bin/python /path/to/ERIK/erik_client.py "YOUR MESSAGE"
+```
+OR make a shortcut to make the client.py window pop up (where you can type and send msg) 
+```bash
 /path/to/ERIK/venv/bin/python /path/to/ERIK/erik_client.py
 ```
