@@ -1,0 +1,17 @@
+[Unit]
+Description=ERIK v2 Watchdog and System Event Service
+After=network.target sound.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/elias/Projects/Ai-workspace/GEMINI/ERIK
+ExecStart=/home/elias/Projects/Ai-workspace/GEMINI/ERIK/venv/bin/python -m src.main
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+KillSignal=SIGINT
+TimeoutStopSec=10s
+
+[Install]
+WantedBy=default.target
